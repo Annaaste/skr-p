@@ -13,6 +13,21 @@
     <artifactId>sti-aaj-dao-impl</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>sti-aaj-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>sti-aaj-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+    </dependencies>
+
 
 
 </project>
